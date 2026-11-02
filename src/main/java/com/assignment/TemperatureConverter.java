@@ -6,7 +6,7 @@ public class TemperatureConverter {
     }
 
     public double farenheitToCelsius (double farenheit){
-        return (farenheit - 32) * (5 / 9);
+        return (farenheit - 32) * (5.0 / 9.0);
     }
 
     public double celsiusToKelvin (double celsius){
